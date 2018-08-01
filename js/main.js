@@ -8,12 +8,12 @@ function Jersey(team, size, player, price, image) {
 }
 
 // create new prodcuts from the product constructor
-var hawks = new Jersey('Hawks', 'Medium', 'Trae Young', 120, 'img/young.png')
+var hawks = new Jersey('Hawks', 'Large', 'Trae Young', 120, 'img/young.png')
 var warriors = new Jersey('Warriors', 'Large', 'Steph Curry', 160, 'img/curry.png')
 var lakers = new Jersey('Lakers', 'Small', 'Lebron James', 140, 'img/bron.png')
 var celtics = new Jersey('Celtics', 'Large', 'Jason Tatum', 100, 'img/tatum.png')
 var rockets = new Jersey('Rockets', 'Large', 'James Harden', 120, 'img/harden.png')
-var raptors = new Jersey('Raptors', 'Medium', 'Kyle Lowry', 100, 'img/lowry.png')
+var raptors = new Jersey('Raptors', 'Large', 'Kyle Lowry', 100, 'img/lowry.png')
 
 // create an array to add products to
 var jerseyArray = new Array
